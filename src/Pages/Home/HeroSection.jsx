@@ -15,7 +15,7 @@ export default function HeroSection() {
             Lorem ipsum dolor sit amet elit?
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch!</button>
+        <button className="btn btn-primary">Let's Chat!</button>
       </div>
       <div className="hero--section--image">
         <img src="./img/draftPic.jpg" alt="Hero Section"/>
