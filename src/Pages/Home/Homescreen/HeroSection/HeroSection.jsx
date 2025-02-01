@@ -13,7 +13,7 @@ export default function HeroSection() {
           </h1>
           <p className="hero--section-description">
             Welcome to my page! Please have a look around :) I'd love to chat
-            about how my skills can help <br></br> your team reach it's goals!{" "}
+            <br></br>about how my skills can help  your team reach it's goals!{" "}
           </p>
         </div>
         <button className="btn btn-primary">Let's Chat!</button>
