@@ -1,5 +1,6 @@
 import { useState, useEffect, use } from "react";
 import { Link } from "react-scroll";
+import "./Navbar.css";
 
 export default function Navbar() {
   const [navActive, setNavActive] = useState(false);
