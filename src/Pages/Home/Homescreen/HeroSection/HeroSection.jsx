@@ -1,3 +1,5 @@
+import './HeroSection.css';
+
 export default function HeroSection() {
   return (
     <section id="hereSection" className="hero--section">
@@ -10,13 +12,14 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet elit?
+            Welcome to my page! Please have a look around :) I'd love to chat
+            about how my skills can help <br></br> your team reach it's goals!{" "}
           </p>
         </div>
         <button className="btn btn-primary">Let's Chat!</button>
       </div>
-      <div className="hero--section--image">
-        <img src="./img/draftPic.jpg" alt="Hero Section"/>
+      <div className="hero--section--img">
+        <img src="./img/draftpicResized.jpg" alt="Hero Section" />
       </div>
     </section>
   );
