@@ -51,12 +51,12 @@
   border-radius: 20px;
   width: 100%;
   height: auto;
-  box-shadow: 10px 10px 55px rgb(179, 234, 232);
+  box-shadow: 8px 8px 65px rgb(179, 234, 232);
   overflow: hidden;
 }
 
 .hero--section--img > img {
-  width: 100%;
+  width: 90%;
   height: auto;
   max-width: 100%;
   object-fit: cover;
