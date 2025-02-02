@@ -1,7 +1,6 @@
-import AboutMe from '../AboutMe/AboutMe';
-import HeroSection from './HeroSection/HeroSection';
-import MySkills from './MySkills/MySkills';
-
+import HeroSection from '../../HeroSection/HeroSection';
+import MySkills from '../../MySkills/MySkills';
+import AboutMe from '../../AboutMe/AboutMe';
 export default function Home(){
     return (
       <>

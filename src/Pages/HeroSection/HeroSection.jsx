@@ -16,7 +16,7 @@ export default function HeroSection() {
             <br></br>about how my skills can help  your team reach it's goals!{" "}
           </p>
         </div>
-        <button className="btn btn-primary">Let's Chat!</button>
+        <button className="btn btn-primary">Download CV</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/draftpicResized.jpg" alt="Hero Section" />
