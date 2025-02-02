@@ -11,7 +11,7 @@
   color: var(--heading-color);
   font-size: 64px;
   font-weight: 700;
-  align-height: 77px;
+  line-height: 77px;
 }
 
 .skills--section--container {
