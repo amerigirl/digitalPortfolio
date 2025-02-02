@@ -2,25 +2,25 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "/img/product-chain-1.png",
       "title": "Front-end",
       "description": "lorem ipsum dollor, sodkdks didls, sldlskd,"
     },
      {
        "id": "2",
-       "src": "./img/tag-1.png",
+       "src": "/img/tag-1.png",
        "title": "Back-end",
        "description": "lorem ipsum dollor, sodkdks didls, sldlskd,"
      },
       {
         "id": "3",
-        "src": "./img/feather-pen-2.png",
+        "src": "/img/feather-pen-2.png",
         "title": "Ui & UX design",
         "description": "lorem ipsum dollor, sodkdks didls, sldlskd,"
       },
        {
          "id": "4",
-         "src": "./img/feather-pen-1.png",
+         "src": "/img/feather-pen-1.png",
          "title": "Webflow Development",
          "description": "lorem ipsum dollor, sodkdks didls, sldlskd,"
        }
