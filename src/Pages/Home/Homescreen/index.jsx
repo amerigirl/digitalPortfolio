@@ -1,4 +1,4 @@
-import AboutMe from '../AboutMe';
+import AboutMe from '../AboutMe/AboutMe';
 import HeroSection from './HeroSection/HeroSection';
 import MySkills from './MySkills/MySkills';
 
