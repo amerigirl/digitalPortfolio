@@ -1,4 +1,4 @@
-import './AboutMe.css';
+import "./AboutMe.css";
 
 export default function AboutMe() {
   return (
@@ -8,7 +8,6 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section--description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
@@ -19,7 +18,6 @@ export default function AboutMe() {
           <p className="hero--section--description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
             quas consectetur nulla laboriosam unde. Minus explicabo mollitia qui
-        
           </p>
         </div>
       </div>

@@ -6,8 +6,9 @@ export default function Home(){
     return (
       <>
         <HeroSection />
+          <AboutMe />
         <MySkills />
-        <AboutMe />
+      
       </>
     );
 }
