@@ -33,9 +33,7 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <img src="./img/logo.svg" alt="logo" />
-      </div>
+      <div className="navbar--content">Be-Asia &nbsp; McKerracher </div>
       <a
         className={`nav_hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
