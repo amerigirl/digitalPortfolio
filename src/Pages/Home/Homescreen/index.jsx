@@ -1,5 +1,5 @@
 import HeroSection from './HeroSection/HeroSection';
-import MySkills from '../MySkills';
+import MySkills from './MySkills/MySkills';
 
 export default function Home(){
     return (
