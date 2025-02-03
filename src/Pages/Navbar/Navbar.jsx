@@ -33,9 +33,9 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div className="navbar--name">
+      {/* <div className="navbar--name">
         Be-Asia &nbsp; McKerracher 
-      </div>
+      </div> */}
 
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
@@ -105,8 +105,8 @@ export default function Navbar() {
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
       </a>
-
-      <Link
+       <div className="navbar--button">
+       <Link
         onClick={closeMenu}
         activeClass="navbar--active-content"
         spy={true}
@@ -118,6 +118,8 @@ export default function Navbar() {
       >
         Contact Me
       </Link>
+    </div>
     </nav>
+   
   );
 }

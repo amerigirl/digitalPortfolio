@@ -2,9 +2,10 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
   padding: 20px 50px;
   background: var(--white);
+  gap: 20px;
   box-shadow: 0px 5.333px 80px 0 rgb(0, 0, 0, 0.1);
   position: fixed; /* keeps the navbar on top */
   /*keeps everything touching ALL edges of the page, filling the space */
@@ -17,6 +18,7 @@
   list-style: none;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   gap: 60px;
   text-decoration: none;
 }
@@ -37,6 +39,9 @@
   color: var(--primary);
 }
 
+.navbar--button{
+  margin-left: 20px;
+}
 
 /* Hamburger menu  */
 
