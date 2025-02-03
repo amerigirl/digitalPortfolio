@@ -9,11 +9,6 @@
   padding: 2% 3% 1%;
   margin-top: 80px;
   margin-bottom: 8%;
-  background-image: url(../../../public/img/seattleSkyline.jpg);
-  background-size: 20% 80%;
-  background-repeat: no-repeat;
-  background-position: 100%, 80%; 
-
 }
 
 .hero--section--content-box {
@@ -47,9 +42,9 @@
 .hero--section--img {
   display: flex;
   border-radius: 25% 10%;
-  margin-left: -73%;
+  margin-left: -87%;
   overflow: hidden;
-  width: 35%;
+  width: 40%;
   height: auto;
   box-shadow: 8px 8px 65px rgb(179, 234, 232);
 }
@@ -58,4 +53,8 @@
   height: auto;
   width: 100%;
   object-fit: cover;
+}
+
+.section--title{
+  color: rgb(45, 190, 195);
 }

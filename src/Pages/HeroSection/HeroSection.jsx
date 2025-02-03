@@ -7,9 +7,8 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Software Engineer </p>
           <h1 className="hero--section--title">
-            <span>Hey, I'm Be-Asia</span>
-            <br />
-            McKerracher
+            <span>Hi, I'm Be-Asia!</span>
+          
           </h1>
           {/* <p className="hero--section-description">
             Welcome to my page! Please have a look around :) I'd love to chat
@@ -20,6 +19,9 @@ export default function HeroSection() {
       </div>
       <div className="hero--section--img">
         <img src="./img/mePic.jpg" alt="Hero Section" />
+        
+      </div>
+      <div className="hero--section--second--img">
       </div>
     </section>
   );
