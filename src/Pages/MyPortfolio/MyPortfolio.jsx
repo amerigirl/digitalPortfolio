@@ -4,7 +4,7 @@ import "./MyPortfolio.css";
 export default function MyPortfolio() {
   return (
     <section className="portfolio--section" id="myPortfolio">
-      <div className="portfolio--container--box">
+      <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
           <h2 className="section--heading">My Portfolio</h2>
@@ -22,7 +22,7 @@ export default function MyPortfolio() {
             <div className="portfolio--section--image">
               <img src={item.src} alt="Product Chain" />
             </div>
-            <div className="portfoio--section--card--content">
+            <div className="portfolio--section--card--content">
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>

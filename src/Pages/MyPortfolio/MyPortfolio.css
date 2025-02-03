@@ -1,5 +1,5 @@
 .github {
-  height: 3cqb;
+  height: 30px;
   width: 30px;
 }
 
@@ -10,14 +10,12 @@
   align-items: flex-start;
   gap: 80px;
 }
-
-.portfolio--container--box {
+.portfolio--container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
 .portfolio--container {
   display: flex;
   flex-direction: column;
@@ -31,7 +29,6 @@
   gap: 42.6px;
   width: 100%;
 }
-
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
@@ -59,16 +56,15 @@
   gap: 32px;
   align-self: stretch;
 }
-
 .portfolio--section--title {
   color: var(--heading-color);
 }
-
 .portfolio--link {
   text-decoration: none;
   display: flex;
   gap: 16px;
-  border-bottom: 1.33px solid var(--primary-color);
+  border-bottom: 1.33px solid var(--primary);
+  padding-top: 16px;
   padding-bottom: 10.6px;
   font-weight: 600;
 }
