@@ -20,7 +20,7 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--image">
-              <img src={item.img} alt="Product Chain" />
+              <img src={item.src} alt="Product Chain" />
             </div>
             <div className="portfoio--section--card--content">
               <div>
