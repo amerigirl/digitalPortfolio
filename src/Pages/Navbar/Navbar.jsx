@@ -34,15 +34,8 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div className="navbar--content">Be-Asia &nbsp; McKerracher </div>
-      <a
-        className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
-      >
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
-      </a>
-      <div className={`navbar--items ${navActive} ? 'active: ''`}>
+      
+      <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
             <Link
@@ -100,9 +93,17 @@ export default function Navbar() {
               Portfolio
             </Link>
           </li>
-          
         </ul>
       </div>
+<a
+        className={`nav__hamburger ${navActive ? "active" : ""}`}
+        onClick={toggleNav}
+      >
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+      </a>
+
       <Link
         onClick={closeMenu}
         activeClass="navbar--active-content"
