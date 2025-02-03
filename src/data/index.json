@@ -25,5 +25,33 @@
          "description": "lorem ipsum dollor, sodkdks didls, sldlskd,"
        }
 
+  ],
+
+
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "/img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "lorem ipsum dollor, sodkdks didls, sldlskd,", 
+      "link": "View in Github"
+    },
+     {
+       "id": "2",
+       "src": "/img/placeholder-image-1.png",
+       "title": "App Dashboard",
+       "description": "lorem ipsum dollor, sodkdks didls, sldlskd,",
+       "link": "View in Github"
+     },
+      {
+        "id": "3",
+        "src": "/img/placeholder-image-2.png",
+        "title": "Easy Rent",
+        "description": "lorem ipsum dollor, sodkdks didls, sldlskd,",
+        "link": "View in Github"
+      }
   ]
 }
+
+
+
