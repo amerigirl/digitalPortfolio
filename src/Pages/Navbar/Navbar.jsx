@@ -33,8 +33,10 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div className="navbar--content">Be-Asia &nbsp; McKerracher </div>
-      
+      <div className="navbar--name">
+        Be-Asia &nbsp; McKerracher 
+      </div>
+
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
@@ -95,7 +97,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-<a
+      <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >

@@ -3,19 +3,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 85.333px;
+  padding: 20px 50px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgb(0, 0, 0, 0.1);
   position: fixed; /* keeps the navbar on top */
+  /*keeps everything touching ALL edges of the page, filling the space */
   top: 0;
   left: 0;
   right: 0;
 }
+
 .navbar--items > ul {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  gap: 50px;
+  gap: 60px;
   text-decoration: none;
 }
 
@@ -30,11 +32,11 @@
   font-weight: 400;
   line-height: 24px;
   cursor: pointer;
-  ;
 }
 .navbar--active--content {
   color: var(--primary);
 }
+
 
 /* Hamburger menu  */
 

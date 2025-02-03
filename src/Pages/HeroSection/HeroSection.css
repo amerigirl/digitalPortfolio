@@ -9,7 +9,13 @@
   padding: 5% 5%;
   margin-top: 70px;
   margin-bottom: 8%;
+  background-image:url(../../../public/img/meAndGrogu.jpg); 
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+
 }
+
 
 .hero--section--content-box {
   display: flex;
