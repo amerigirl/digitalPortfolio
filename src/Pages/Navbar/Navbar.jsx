@@ -35,7 +35,7 @@ export default function Navbar() {
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div className="navbar--content">Be-Asia &nbsp; McKerracher </div>
       <a
-        className={`nav_hamburger ${navActive ? "active" : ""}`}
+        className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
         <span className="nav__hamburger__line"></span>
