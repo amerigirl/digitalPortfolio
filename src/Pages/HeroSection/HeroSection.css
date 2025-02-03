@@ -1,26 +1,19 @@
 /* Hero Section Style */
 .hero--section {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 60% 40%;
   align-items: center;
-  justify-content: start;
-  gap: 20px;
   background-color: var(--bg-shade);
   padding: 2% 3% 1%;
   margin-top: 70px;
   margin-bottom: 8%;
-  /* background-image:url(../../../public/img/seattleSkyline.jpg); 
-  background-repeat: no-repeat;
-
-  background-position: right;
-  background-size: 70% 100%; */
 }
 
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+
 }
 
 .hero--section--content {
@@ -39,7 +32,7 @@
   font-size: 74.667px;
   font-weight: 700;
   line-height: 90px;
-  align-self: stretch;
+
 }
 
 .hero--section--title--color {
@@ -56,9 +49,9 @@
 .hero--section--img {
   display: flex;
   border-radius: 25% 10%;
-  margin-right: auto;
+  margin-left: -70%;
   overflow: hidden;
-  width: 40%;
+  width: 50%;
   height: auto;
   box-shadow: 8px 8px 65px rgb(179, 234, 232);
 }
