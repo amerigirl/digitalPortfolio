@@ -1,3 +1,5 @@
+import './ContactMe.css';
+
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
@@ -60,11 +62,25 @@ export default function ContactMe() {
             className="contact--input text-md"
           >
             <option>Select One...</option>
-            <option>Select One...</option>
-            <option>Select One...</option>
-            <option>Select One...</option>
+            <option>Item 1</option>
+            <option>Item 2</option>
+            <option>Item 3</option>
           </select>
         </label>
+        <label htmlFor="message" className="contact--label">
+          <span className="text-md">Phone Number</span>
+          <textarea
+            className="contact--input text-md"
+            id="message"
+            rows="8"
+            placeholder="Type your message here..."
+          />
+        </label>
+        <label htmlFor="checkbox" className="checkbox--label">
+            <input type="checkbox" required name="checkbox" id="checkbox"/>
+            <span className="text-sm">I accept the terms</span>
+        </label>
+        <div><button className="btn btn-primary contact--form--btn">Submit</button></div>
       </form>
     </section>
   );
