@@ -1,21 +1,20 @@
 /* Hero Section Style */
 .hero--section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 40% 60%;
   align-items: center;
-  justify-content: space-between;
-  gap: 50px;
+  justify-content: start;
+  gap: 20px;
   background-color: var(--bg-shade);
-  padding: 5% 5%;
+  padding: 2% 3% 1%;
   margin-top: 70px;
   margin-bottom: 8%;
-  background-image:url(../../../public/img/meAndGrogu.jpg); 
+  /* background-image:url(../../../public/img/seattleSkyline.jpg); 
   background-repeat: no-repeat;
-  background-size:contain;
-  background-position: center;
 
+  background-position: right;
+  background-size: 70% 100%; */
 }
-
 
 .hero--section--content-box {
   display: flex;
@@ -56,15 +55,16 @@
 
 .hero--section--img {
   display: flex;
-  border-radius: 20px;
-  width: 60%;
+  border-radius: 25% 10%;
+  margin-right: auto;
+  overflow: hidden;
+  width: 40%;
   height: auto;
   box-shadow: 8px 8px 65px rgb(179, 234, 232);
-  overflow: hidden;
 }
 
 .hero--section--img > img {
   height: auto;
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
 }
