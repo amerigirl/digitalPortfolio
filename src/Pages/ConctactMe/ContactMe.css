@@ -58,18 +58,3 @@ select {
 select::-ms-expand {
   display: none;
 }
-.checkbox--label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10.6px;
-    flex: 1 0 0;
-    justify-content: flex-start;
-}
-input[type="checkbox"] {
-width: 21px;
-height: 21px;
-border: 0.15em solid var(--heading-color);
-border-radius: 0.15em;
-transform: translateY(-0.075em);
-}
