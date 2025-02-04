@@ -8,21 +8,15 @@ export default function HeroSection() {
           <p className="section--title">Software Engineer </p>
           <h1 className="hero--section--title">
             <span>Hi, I'm Be-Asia!</span>
-          
           </h1>
-          {/* <p className="hero--section-description">
-            Welcome to my page! Please have a look around :) I'd love to chat
-            <br></br>about how my skills can help  your team reach it's goals!
-          </p> */}
         </div>
-        <button className="btn btn-primary">Download CV</button>
+        <br></br>
+        <button className="btn btn-primary download--button">Download CV</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/mePic.jpg" alt="Hero Section" />
-        
       </div>
-      <div className="hero--section--second--img">
-      </div>
+    
     </section>
   );
 }
